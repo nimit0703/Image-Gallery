@@ -1,1 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+:root{
+    --pink:#ff0552;
+}
+*::selection{
+    background: var(--pink);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.2rem 2rem;
+    z-index: 10000;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: #fff;
+    margin-right: auto;
+
+}
+
+
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7),url("bg1.jpg") no-repeat);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
