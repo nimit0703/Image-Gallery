@@ -42,6 +42,76 @@ header .logo{
 
 }
 
+header .logo i{
+    padding:0 .5rem;
+    color:var(--pink);
+}
+
+header form{
+    display: flex;
+    margin-right: auto;
+}
+
+header form #search{
+    height:4rem;
+    width:40rem;
+    padding:0 1rem;
+    font-size: 1.7rem;
+    color:#333;
+    border:none;
+}
+
+header form label{
+    height:4rem;
+    width:5rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.7rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+}
+
+header form label:hover{
+    background: var(--pink);
+}
+
+header .navbar ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin: 0 1rem;
+}
+
+header .navbar ul li a{
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+header .navbar ul li a:hover{
+    color: var(--pink);
+}
+
+header .upload {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: var(--pink);
+    color: #fff;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+}
+
+
+header .upload :hover{
+    background: #fff;
+    color: #333;
+}
+
 
 .home{
     min-height: 100vh;
