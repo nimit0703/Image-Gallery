@@ -115,7 +115,7 @@ header .upload :hover{
 
 .home{
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7),url("bg1.jpg") no-repeat);
+    background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)), url(../images/bg1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
